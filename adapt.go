@@ -19,9 +19,9 @@ import (
 	gotoken "go/token"
 	gotypes "go/types"
 
-	rpast "github.com/jjuliano/godef/go/ast"
-	rpprinter "github.com/jjuliano/godef/go/printer"
-	rptypes "github.com/jjuliano/godef/go/types"
+	rpast "github.com/kvch/godef/go/ast"
+	rpprinter "github.com/kvch/godef/go/printer"
+	rptypes "github.com/kvch/godef/go/types"
 	"golang.org/x/tools/go/packages"
 )
 

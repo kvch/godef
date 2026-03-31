@@ -7,7 +7,7 @@
 To install `godef`, you need to have Go installed. Then, use the following command:
 
 ```sh
-go install github.com/jjuliano/godef@latest
+go install github.com/kvch/godef@latest
 ```
 
 ## Usage

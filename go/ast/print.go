@@ -12,7 +12,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/jjuliano/godef/go/token"
+	"github.com/kvch/godef/go/token"
 )
 
 // A FieldFilter may be provided to Fprint to control the output.

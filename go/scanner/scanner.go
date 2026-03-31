@@ -27,7 +27,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/jjuliano/godef/go/token"
+	"github.com/kvch/godef/go/token"
 )
 
 // A Scanner holds the scanner's internal state while processing

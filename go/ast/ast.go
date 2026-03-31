@@ -10,7 +10,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/jjuliano/godef/go/token"
+	"github.com/kvch/godef/go/token"
 )
 
 // ----------------------------------------------------------------------------

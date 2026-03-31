@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"text/tabwriter"
 
-	"github.com/jjuliano/godef/go/ast"
-	"github.com/jjuliano/godef/go/token"
+	"github.com/kvch/godef/go/ast"
+	"github.com/kvch/godef/go/token"
 )
 
 const debug = false // enable for debugging

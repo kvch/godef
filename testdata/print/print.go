@@ -1,8 +1,8 @@
 package print
 
 import (
-	"github.com/jjuliano/godef/a" //@mark(PrintImportDir, "jjuliano")
-	"github.com/jjuliano/godef/b"
+	"github.com/kvch/godef/a" //@mark(PrintImportDir, "kvch")
+	"github.com/kvch/godef/b"
 )
 
 type localStruct struct {
@@ -30,7 +30,7 @@ start:
 		){"filename":".*godef.print.print\.go","line":\d+,"column":\d+}\n$`)
 	godefPrint(PrintA, "type", re`^(|
 		).*godef.print.print\.go:\d+:\d+(\n|
-		)import \(a "github\.com/jjuliano/godef/a"\)\n$`)
+		)import \(a "github\.com/kvch/godef/a"\)\n$`)
 
 	godefPrint(PrintStuff, "json", re`^(|
 		){"filename":".*godef.a.a\.go","line":\d+,"column":\d+}\n$`)

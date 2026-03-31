@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/jjuliano/godef/go/scanner"
-	"github.com/jjuliano/godef/go/token"
+	"github.com/kvch/godef/go/scanner"
+	"github.com/kvch/godef/go/token"
 )
 
 type pkgBuilder struct {
