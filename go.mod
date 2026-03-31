@@ -1,4 +1,4 @@
-module github.com/jjuliano/godef
+module github.com/kvch/godef
 
 go 1.25.0
 
